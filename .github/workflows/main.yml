@@ -1,4 +1,4 @@
-name: pipeline-ci
+name: Pipeline CI/CD DataOps
 
 on:
   push:
