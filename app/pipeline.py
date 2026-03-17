@@ -28,3 +28,5 @@ def run_pipeline(input_file: str, output_file: str) -> None:
 
 if __name__ == "__main__":
     run_pipeline("data/sales.csv", "output/summary.csv")
+
+# ajuste flake8
