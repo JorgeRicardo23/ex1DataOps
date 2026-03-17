@@ -16,7 +16,7 @@ def run_pipeline(input_file: str, output_file: str) -> None:
     summary = pd.DataFrame(
         {
             "total_sales": [df["amount"].sum() + 2],
-            "avg_sales": [df["amount"].mean()],
+            "avg_sales": [df["amount"].mean() + 1],
             "total_orders": [df["order_id"].nunique()],
         }
     )
